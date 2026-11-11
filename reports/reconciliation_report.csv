@@ -1,0 +1,15 @@
+metric,value
+status,BALANCED
+cumulative_run_input_rows,50270
+new_unique_events_accepted,11001
+duplicate_occurrences,39226
+rejected_occurrences,43
+total_processed_events,11001
+total_user_sessions,10332
+sum_session_event_counts,11001
+source_equation_formula,input == valid_new + duplicates + rejects
+source_equation_balanced,True
+source_equation_delta,0
+session_equation_formula,processed_events == sum(event_count in user_sessions)
+session_equation_balanced,True
+session_equation_delta,0

@@ -1,0 +1,6 @@
+pandas>=2.0.0
+streamlit>=1.30.0
+mysql-connector-python>=8.0.0
+matplotlib>=3.7.0
+pytest>=8.0.0
+polars>=1.0.0
